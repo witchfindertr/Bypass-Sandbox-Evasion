@@ -42,7 +42,7 @@ DWORD GetPID(const char* pn)
 int wmain(int argc, char* argv[]) {
 	int i = 0;
 	DWORD tpid = 0;
-	HANDLE hw = OpenProcess(PROCESS_ALL_ACCESS, 0, tpid = GetPID("remcos_a.exe"));
+	HANDLE hw = OpenProcess(PROCESS_ALL_ACCESS, 0, tpid = GetPID("ProcessHacker.exe"));
 	if (!hw)
 		return -2;
 
